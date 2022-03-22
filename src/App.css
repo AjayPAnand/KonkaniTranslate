@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  margin-top: 2px;
+}
+p{
+  display: block;
+  padding: 3px;
+  margin: 3px;
+  background-color: aqua;
+}
+input{
+  width: 330px;
+  height: 30px;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 17px;
+}
+input:focus{
+  background-color: aqua;
+}
+label{
+  border: 1px solid gray;
+  width: 330px;
+  height: 70px;
+  padding: 10px;
+  text-align: left;
+}
+.Box{
+  display: inline-block;
+  margin: 40px;
+  margin-top: 20px;
+  width: 320px;
+  padding: 33px;
+}
+.Box label{
+  display: block;
+  margin-top: 18px;
+}
+select{
+  width: 350px;
+  height: 30px;
+  margin-top: 18px;
+}
+select:focus{
+  background-color: lightskyblue;
+}
+h1{
+  color: lightcoral;
+}
+h3{
+  display: inline;
+}
