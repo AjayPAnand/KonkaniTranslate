@@ -54,7 +54,8 @@ const handleClick = (e) =>{
   return (
     <div className="App">
       <h1>Translate to Konkani</h1>
-    
+      <h5>Anyone interested can use this page to learn Konkani.</h5>
+      <h5>Enter the word present in the list and choose any languange from dropdown to see the translation.</h5>
       <div className="Box">
       <input onChange={handleChange} placeholder="Enter word to Translate" type="text" ></input>
       <select name="Language" onChange={handleClick}>
@@ -66,6 +67,9 @@ const handleClick = (e) =>{
       <label>{lan} : <p>{name}</p> </label>
       </div>
       <List />
+      <h4>Note:This page is created for the sole purpose of learning.
+      </h4><h4>Please don't use this for commercial purpose</h4>
+
     </div>
 
   );
