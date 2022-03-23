@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KonkaniTranslate/static/css/main.446e36ba.css",
+    "main.js": "/KonkaniTranslate/static/js/main.9aa03434.js",
+    "static/js/787.cab2cbb6.chunk.js": "/KonkaniTranslate/static/js/787.cab2cbb6.chunk.js",
+    "index.html": "/KonkaniTranslate/index.html",
+    "main.446e36ba.css.map": "/KonkaniTranslate/static/css/main.446e36ba.css.map",
+    "main.9aa03434.js.map": "/KonkaniTranslate/static/js/main.9aa03434.js.map",
+    "787.cab2cbb6.chunk.js.map": "/KonkaniTranslate/static/js/787.cab2cbb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.446e36ba.css",
+    "static/js/main.9aa03434.js"
+  ]
+}
