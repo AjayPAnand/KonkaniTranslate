@@ -57,7 +57,8 @@ const handleClick = (e) =>{
       <h5>Anyone interested can use this page to learn Konkani.</h5>
       <h5>Enter the word present in the list and choose any languange from dropdown to see the translation.</h5>
       <div className="Box">
-      <input onChange={handleChange} placeholder="Enter word to Translate" type="text" ></input>
+      <input onChange={handleChange} placeholder="Enter word to Translate" type="text" ></input>X
+      
       <select name="Language" onChange={handleClick}>
         <option>Select Language</option>
         <option value="H">Hindi</option>
