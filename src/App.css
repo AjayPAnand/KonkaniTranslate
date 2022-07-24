@@ -1,38 +1,84 @@
+
+@keyframes slidein {
+    from {
+      margin-bottom: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-bottom: 0%;
+      width: 100%;
+    }
+  }
 .App {
+  text-align: center;
+  margin-top: 2px;
+  margin: auto;
+  width: 95%;
+  padding: 10px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h1{
+  font-family: cursive;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+input{
+  width: 220px;
+  height: auto;
+  padding: 1px;
+  margin: 9px;
+}
+button{
+  width: 120px;
+  height: 33px;
+  font-size: medium;
+  margin: 10px;
+  border-radius: 22px;
+  background-color: lightgreen;
+  font-family: cursive;
+  border: 0;
+}
+select{
+  width: 155px;
+  height: 33px;
+  border-radius: 22px;
+  font-size: medium;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+option{
+  width: 155px;
+  height: 33px;
+  border-radius: 22px;
+  font-size: small;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button.option{
+  font-size: larger;
+  background-color: aliceblue;
+  border: 1px solid black ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#quiz{
+  background-color: #13455B!important;
+  font-size: large;
   color: white;
+  width: auto;
+  border: 1px solid black ;
 }
-
-.App-link {
-  color: #61dafb;
+h2{
+  background-color: lightblue;
+  border-radius: 22px;
+  margin-left:122px;
+  margin-right:122px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p#score{
+  background-color: lightgray;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 22px;
+}
+h5{
+  font-family: monospace;
 }

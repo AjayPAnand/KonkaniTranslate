@@ -1,0 +1,41 @@
+input{
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    font-weight: bold;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+    border-bottom: 1px solid lightgreen;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+ul{
+   margin: auto;
+   margin-left: 65px;
+   width: 65%;
+   padding: 10px;
+   list-style: none;
+    border: 2px solid gray;
+    border-top: 0;
+}
+li:hover, li:focus{
+    background-color: gray;
+}
+#react-autowhatever-1{
+    position: absolute;
+    z-index: auto;
+    background-color: white;
+    width: 83%;
+}
+.Result{
+    margin-top:1em ;
+    border: 1px solid ;
+}
+
